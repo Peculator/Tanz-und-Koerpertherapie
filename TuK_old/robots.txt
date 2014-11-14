@@ -1,0 +1,9 @@
+#
+# robots.txt file for http://www.tanz-und-koerpertherapie.de
+#
+User-Agent: *
+Disallow: /*.pdf$
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /images/
+Disallow: /pdf/

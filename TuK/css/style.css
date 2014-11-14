@@ -1,0 +1,164 @@
+@import url("http://fast.fonts.net/lt/1.css?apiType=css&c=754d1a9b-f0e7-4ad7-91d6-c6da16e5c930&fontids=721220");
+@font-face {
+    font-family: "Avenir LT W01 35 Light";
+    src: url("Fonts/721220/3511a780-31ca-4ee1-9083-89b1b7185748.eot?#iefix");
+    src: url("Fonts/721220/3511a780-31ca-4ee1-9083-89b1b7185748.eot?#iefix") format("eot"), url("Fonts/721220/c4352a95-7a41-48c1-83ce-d8ffd2a3b118.woff") format("woff"), url("Fonts/721220/3e419b5b-c789-488d-84cf-a64009cc308e.ttf") format("truetype"), url("Fonts/721220/ca038835-1be3-4dc5-ba25-be1df6121499.svg#ca038835-1be3-4dc5-ba25-be1df6121499") format("svg");
+}
+.navbar {
+    font-family: 'Avenir LT W01 35 Light';
+    padding-left: 0px;
+    font-size: 17px;
+}
+.startdkgrey {
+    color: #404040;
+}
+.startltgrey {
+    color: #595959;
+}
+.startred {
+    color: #af3d28;
+}
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.center90 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.center100 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.noPadding{
+	padding: 0px;
+}
+.contentLeft{
+	width:70%;
+}
+.contentRight{
+	width:30%;
+	padding-left: 20px;
+}
+
+.main {
+    padding: 35px 5px 0px 5px;
+    text-align: left;
+}
+.zitat {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+body {
+    padding-top: 30px;
+    color: #555555;
+    background-color: #ecedf1
+}
+.nav>li>a {
+    display: inline-block;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.nav>li>a.subcaret {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav>li>a.submenu {
+    padding-right: 0px;
+}
+.caret {
+    margin-right: 10px;
+}
+.dropdown {
+    padding-right: 10px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #ecedf1;
+}
+.navbar {
+    top: 279px;
+}
+.nav {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-wrapper {
+    height: 0px;
+}
+.images>a>img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+h1 {
+    font-size: 26px;
+}
+.blue {
+    color: #a0abbc;
+}
+.author {
+    padding-top: 3px;
+}
+.lead {
+    text-align: justify;
+    font-size: 17px;
+}
+.images>img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.navStart>ul>li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.navStart>ul {
+    text-align: center;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dropdown-menu {
+    background-color: #ecedf1;
+}
+.dropdown-menu .divider {
+    background-color: #c1c1c1;
+}
+.startTitle {
+    padding-bottom: 13px;
+    padding-top: 30px;
+    font-family: 'Avenir LT W01 35 Light';
+    font-size: 28px;
+}
+.navbar-default {
+    background-color: #ecedf1;
+    border-color: #ecedf1;
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #555;
+    background-color: rgba(248, 248, 248, 0.0);
+    padding-bottom: 12px;
+    border-bottom: 3px solid #3a6774;
+}
+a.startLink:hover {
+    color: #a0abbc;
+    text-decoration: none;
+}
+.startbrown {
+    color: #757373;
+}
+.startblue {
+    color: #a0abbc;
+}
+a.startLink {
+    font-family: 'Avenir LT W01 35 Light';
+    font-size: 18px;
+    padding: 5px;
+    color: #6f5a4b;
+}

@@ -9,6 +9,19 @@
     padding-left: 0px;
     font-size: 17px;
 }
+
+.navbar>ul {
+  text-align: center;
+}
+
+.morecontent span {
+    display: none;
+}
+
+.morelink {
+    /*display: block;*/
+}
+
 .startdkgrey {
     color: #404040;
 }
@@ -58,6 +71,10 @@ body {
     color: #555555;
     background-color: #ecedf1
 }
+
+.nav>li{
+	 /*display: inline-block;*/
+}
 .nav>li>a {
     display: inline-block;
     padding-left: 11px;
@@ -74,7 +91,7 @@ body {
     margin-right: 10px;
 }
 .dropdown {
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     background-color: #ecedf1;
@@ -86,10 +103,13 @@ body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    display: inline-block;
+    list-style: none;
 }
 .navbar-wrapper {
     height: 0px;
 }
+
 .images>a>img {
     width: 100%;
     padding-bottom: 20px;

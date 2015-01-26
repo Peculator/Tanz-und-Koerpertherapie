@@ -3,6 +3,24 @@
 	<head>
 		<?php require("meta.html"); ?>
 		<title>Tanz und Körpertherapie - Philosophie</title>
+		<style type="text/css">
+		.contentLeft{
+			background-color: rgba(198,210,224,1);
+			padding-left: 10px;
+			padding-right: 10px;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+			width:71%;
+		}
+		.contentRight{
+			padding-right: 10px;
+			width:28.4%;
+			background-color: rgba(197,189,172,1);
+			margin-left: 6px;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+		</style>
 	</head>
 	<body>
 		<?php require("navbar.html"); ?>
@@ -103,12 +121,7 @@
 							</div>
 							</div>
 						</div>
-						<div class="noPadding contentRight col-md-4">
-							
-							<h1 style="visibility:hidden">Zitate</h1>
-								<img width="285" src="images/gosia.jpg"></img>
-							</br>
-
+						<div class="contentRight noPadding col-md-4">
 							<h1 style="visibility:hidden">Zitate</h1>
 							<p class="zitat ">Wo immer der (die) Tanzende mit dem Fuß auftritt, da entspringt dem Staub ein Quell des Lebens.</br>
 							</p> <p class="author zitat ">
@@ -123,6 +136,7 @@
 			================================================== -->
 			<!-- Placed at the end of the document so the pages load faster -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<script src="js/lightbox.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
 			<script src="js/script.js"></script>
 		</body>

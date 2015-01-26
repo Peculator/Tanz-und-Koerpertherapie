@@ -9,17 +9,43 @@
     padding-left: 0px;
     font-size: 17px;
 }
+#fssList,#fssPrev,#fssNext,#fssPlayPause{
+	visibility: none;
+	/*display: none;*/
+}
 
 .navbar>ul {
   text-align: center;
 }
-
+#slideshow{
+	height:299px;
+}
 .morecontent span {
     display: none;
 }
 
 .morelink {
     /*display: block;*/
+}
+
+.main{
+	padding-top: 20px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.carousel-inner>.item>img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.carousel-inner>.item.active {
+	height: inherit;
+}
+.carousel-inner{
+	width: 100%;
+	height: 100%;
 }
 
 .startdkgrey {
@@ -47,29 +73,46 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.myFooterLink{
+	visibility: hidden;
+}
+
 .noPadding{
 	padding: 0px;
 }
 .contentLeft{
 	width:70%;
+	padding-top: 10px;
 }
 .contentRight{
 	width:30%;
+	min-width: 300px;
 	padding-left: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+.subtitle{
+	text-decoration: underline;
 }
 
 .main {
-    padding: 35px 5px 0px 5px;
+    padding: 52px 0px 0px 0px;
     text-align: left;
 }
-.zitat {
+.zitat, .zitat>a {
     font-style: italic;
+    text-decoration: none;
     margin-bottom: 5px;
+    color:#6f5a4b;
+    font-size: 16px;
 }
+
 body {
     padding-top: 30px;
     color: #555555;
-    background-color: #ecedf1
+    background-color: #ecedf1;
+    /*background: url("../images/Gras.png") no-repeat fixed center;*/
 }
 
 .nav>li{
@@ -79,14 +122,25 @@ body {
     display: inline-block;
     padding-left: 11px;
     padding-right: 11px;
+    color: #6f5a4b;
 }
-.nav>li>a.subcaret {
+	.nav>li>a.subcaret {
     padding-left: 5px;
     padding-right: 5px;
+
 }
 .nav>li>a.submenu {
     padding-right: 0px;
+    color: #6f5a4b;	
 }
+.nav>li>a.startbrown {
+    color: #6f5a4b;	
+}
+.nav>li>a.startbrown:hover, .nav>li>a.submenu:hover {
+
+    color: #a0abbc;	
+}
+
 .caret {
     margin-right: 10px;
 }
@@ -99,6 +153,9 @@ body {
 .navbar {
     top: 279px;
 }
+.navbar-nav{
+	padding-bottom: 10px;
+}
 .nav {
     width: 100%;
     margin-right: auto;
@@ -110,22 +167,33 @@ body {
     height: 0px;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+
+.navbar-collapse.collapse.in  ul.nav li.dropdown:hover ul.dropdown-menu{
+	display: none;
+}
+
 .images>a>img {
     width: 100%;
     padding-bottom: 20px;
 }
-h1 {
-    font-size: 26px;
+h1,h4 {
+    font-size: 16px;
 }
 .blue {
     color: #a0abbc;
 }
+.readmore{
+	cursor: pointer;
+}
+
 .author {
     padding-top: 3px;
 }
 .lead {
     text-align: justify;
-    font-size: 17px;
+    font-size: 16px;
+    color: #777;
 }
 .images>img {
     width: 100%;
@@ -134,9 +202,15 @@ h1 {
 .navStart>ul>li {
     display: inline-block;
     list-style-type: none;
-    padding-right: 9px;
-    padding-left: 9px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
+
+.carousel-indicators {
+bottom: 10px;
+}
+.carousel-inner{width: 100%;}
+
 .navStart>ul {
     text-align: center;
     padding-left: 0px;
@@ -161,24 +235,44 @@ h1 {
     border-radius: 0px;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: #555;
+    color: #6f5a4b;
     background-color: rgba(248, 248, 248, 0.0);
     padding-bottom: 12px;
-    border-bottom: 3px solid #3a6774;
+    border-bottom: 3px solid #a0abbc;
+}
+
+.footer a, .mail ,.lead a{
+	color: #a0abbc;
+}
+.brown{
+	color:#6f5a4b;
 }
 a.startLink:hover {
     color: #a0abbc;
     text-decoration: none;
 }
+.navStart>ul>li:first-child, .navStart>ul>li:first-child>a{
+	padding-left: 0px;
+}
+.navStart>ul>li:last-child, .navStart>ul>li:last-child>a{
+	padding-right: 0px;
+}
+
 .startbrown {
     color: #757373;
 }
 .startblue {
     color: #a0abbc;
 }
+.fett{
+	font-weight: bold;
+}
 a.startLink {
     font-family: 'Avenir LT W01 35 Light';
     font-size: 18px;
     padding: 5px;
     color: #6f5a4b;
+}
+.sem{
+	border-bottom: 1px solid #6f5a4b;
 }

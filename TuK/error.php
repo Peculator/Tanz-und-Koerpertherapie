@@ -2,6 +2,7 @@
 <html lang="de">
 	<head>
 		<?php require("meta.html"); ?>
+		<title>Tanz und Körpertherapie - Philosophie</title>
 	</head>
 	<body>
 		<?php require("navbar.html"); ?>
@@ -14,16 +15,9 @@
 					<div class="noPadding col-md-12">
 						<div class="contentLeft noPadding col-md-8">
 							<div class="lead">
-								<h1>HEILENDE KRÄFTE IM TANZ®</h1>
-							
-								<?php  require("einladung.html") ?>
+								<h1>404 Fehler - Diese Seite existiert leider nicht. Zurück zur <a target="_self" href="http://www.tanz-und-koerpertherapie.de/">Startseite</a></h1>
+								
 							</div>
-						</div>
-						<div class="noPadding contentRight col-md-4">
-							<h1 style="visibility:hidden">Zitate</h1>
-							<p class="zitat lead ">Wo immer der (die) Tanzende mit dem Fuß auftritt, da entspringt dem Staub ein Quell des Lebens.</br>
-							</p> <p class="author lead zitat ">
-							Rumi</p>
 						</div>
 					</div>
 				</div>

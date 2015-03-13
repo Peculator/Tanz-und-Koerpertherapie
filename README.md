@@ -1,4 +1,4 @@
 Tanz-und-Koerpertherapie
 ========================
 
-Quellcode von "Tanz-und-koerpertherapie.de" / Sourcecode of "Tanz-und-koerpertherapie.de"
+Quellcode von "http://Tanz-und-koerpertherapie.de" / Sourcecode of "http://Tanz-und-koerpertherapie.de"
